@@ -254,7 +254,10 @@ const config = {
   devServer: {
     open: true,
     host: "localhost",
-    onBeforeSetupMiddleware: getAutoComplete,
+    setupMiddlewares: (middlewares, devServer) => {
+      getAutoComplete(devServer); // вызываем ту же функцию
+      return middlewares;
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({

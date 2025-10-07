@@ -5,7 +5,7 @@
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^14.0.0",
         "@testing-library/user-event": "^14.4.3",
-        "@toast-ui/editor": "^3.2.2",
+        "@toast-ui/editor": "^3.1.0",
         "babel-jest": "^29.5.0",
         "babel-loader": "^9.1.2",
         "classnames": "^2.3.2",
@@ -37,6 +37,6 @@
     },
     "devDependencies": {
         "@babel/preset-env": "^7.21.5",
-        "webpack-dev-server": "^4.15.0"
+        "webpack-dev-server": "^5.2.2"
     }
 }
